@@ -2,7 +2,7 @@
 /**
  * Plugin Name: CiviCRM WP REST API
  * Description: WordPress REST endpoints for CiviCRM's 'extern' endpoints.
- * Version: 0.1
+ * Version: 100.1
  * Author: Andrei Mondoc
  * Author URI: https://github.com/mecachisenros
  * Plugin URI: https://github.com/mecachisenros/civicrm-wp-rest
