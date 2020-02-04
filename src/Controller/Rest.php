@@ -130,7 +130,7 @@ class Rest extends Base {
 		$data = apply_filters( 'civi_wp_rest/controller/rest/api_result', $items, $params, $request );
 
 		// only collections of items, ie any action but 'getsingle'
-		if ( isset( $data['values'] ) ) {
+		if ( isset( $data['values'] ) && is_array( $data['values'] ) ) {
 
 			$data['values'] = array_reduce( $items['values'] ?? $items, function( $items, $item ) use ( $request ) {
 
